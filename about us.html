@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>University Website</title>
+	<link rel="stylesheet" href="style.css">
+
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+	
+</head>
+
+<body>
+<section class=" sub-header">
+  <nav>
+		<a href="index.html"><img src="images/university-of-oxford-logo.png"></a>
+			<div class="nav-links">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about us.html">ABOUT</a></li>
+				<li><a href="course.html">COURSE</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="contect.html">CONTACT</a></li>
+				</ul>
+			
+			</div>
+		</nav>
+		  
+ 
+               <h1>About Us</h1>
+</section>
+  
+
+	
+	<!----------about us content--------------->
+
+	<section class="about-us">
+	
+		<div class="row">
+		
+			<div class="about-col">
+				<h1> We are the world's largest university</h1>
+				<p>As the oldest university in the English-speaking world, Oxford is a unique and historic institution. There is no clear date of foundation, but teaching existed at Oxford in some form in 1096 and developed rapidly from 1167, when Henry II banned English students from attending the University of Paris.In 1188, the historian, Gerald of Wales, gave a public reading to the assembled Oxford dons and in around 1190 the arrival of Emo of Friesland, the first known overseas student, set in motion the University's tradition of international scholarly links. By 1201, the University was headed by a magister scholarum Oxonie, on whom the title of Chancellor was conferred in 1214, and in 1231 the masters were recognised as a universitas or corporation.</p>
+				<a href="black-btn">EXPLORE NOW</a>
+				
+			</div>
+			<div class="about-col">
+			<img src="images/oxford-university.jpg"
+			</div>
+	
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	</section>
+
+
+	
+	
+	
+	
+	
+	<!------------------------footer-------------->
+	
+	<section class="footer">
+	<h4>About Us</h4>
+		<p>Oxford University’s knowledge exchange community is united by a common purpose: to accelerate<br> the impact of research on the world.</p>
+	 <div class="icon">
+		<a href="https://www.facebook.com/yatin.goswami.108"><img src="images/facebook-512.png"></a>
+		 
+		 <a href="https://www.instagram.com/yash._.1999/"><img src="images/sm_5b321ca31d522.jpg"></a>
+		 
+		 <img src="images/580b57fcd9996e24bc43c53e.png">   
+		 <img src="images/youtube-512.png">
+		</div>
+		<p> Made With <i class="fa-heart t"></i> For Oxford University</p>
+	
+	</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+</body>
+		<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</html>
